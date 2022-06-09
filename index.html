@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DRÄXLMAIER - IT</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <svg height="39" viewBox="0 0 89 39" width="89" xmlns="http://www.w3.org/2000/svg">
+          <g fill="currentColor" fill-rule="evenodd" transform="translate(0 .35096)">
+              <path d="m33.1467256 7.89157011h6.71461v-3.243111h2.6645277c.6394867 0 1.2789734.1081037 1.8118789.2162074 1.1723922.3243111 2.0250411 1.081037 2.6645278 2.0539703.5329056.8648296.8526489 1.8377629.95923 2.8106962.1065811.86482959.1065811 1.83776289 0 2.70259249-.2131622.9729333-.5329056 1.9458666-.95923 2.8106962-.5329056.9729333-1.4921356 1.7296592-2.6645278 2.0539703-.6394866.2162074-1.2789733.2162074-1.91846.2162074h-2.6645278v-3.243111h-6.71461v7.6753627h10.0186245c.95923 0 1.91846-.1081037 2.87769-.2162074 1.3855544-.2162074 2.7711089-.6486222 4.0500822-1.4053481 1.4921356-.8648296 2.6645278-2.0539703 3.4105956-3.5674221.6394866-1.081037.95923-2.3782814 1.1723922-3.5674221.2131622-1.5134518.2131622-3.0269036 0-4.43225169-.2131622-1.2972444-.5329056-2.4863851-1.1723922-3.5674221-.7460678-1.51345181-1.91846-2.70259251-3.4105956-3.56742211-1.2789733-.7567259-2.6645278-1.1891407-4.0500822-1.4053481-.95923-.1081037-1.91846-.2162074-2.87769-.2162074h-10.0186245v7.89157011zm-21.3162223 22.70177749h2.1316223c.4263244 0 .7460677.1081037.95923.2162074.3197433.2162074.5329055.6486222.5329055 1.1891407s-.2131622.8648296-.5329055 1.081037c-.2131623.1081037-.5329056.1081037-.95923.1081037h-2.1316223zm6.0751234 7.8915703-2.4513656-3.999837c.7460678-.2162074 1.2789733-.6486222 1.5987167-1.2972445.2131622-.5405185.3197433-.9729333.3197433-1.4053481s-.1065811-.8648296-.2131622-1.081037-.3197433-.5405186-.4263245-.756726c-.2131622-.3243111-.5329055-.5405185-.8526488-.6486222-.3197434-.1081037-.8526489-.3243111-1.4921356-.3243111h-4.58298778v9.5131259h2.02504108v-3.6755259h1.7052978l2.1316222 3.6755259zm-17.9056267-.1081033h4.05008222c2.87769 0 4.26324445-2.0539703 4.26324445-4.8646665 0-3.1350072-1.81187889-4.7565627-4.26324445-4.7565627h-4.05008222zm2.02504111-7.6753637h1.49213556c2.02504111 0 2.66452777 1.1891407 2.66452777 3.1350072 0 2.162074-1.17239222 2.8106961-2.34478444 2.8106961h-1.81187889z"></path><path d="m34.9586044 28.8636887-1.91846 3.0269037-1.8118788-3.0269037h-2.4513656l3.0908522 4.5403555-3.3040144 4.9727704h2.2382033l2.1316222-3.2431111 2.0250411 3.2431111h2.5579467l-3.3040144-4.9727704 2.9842711-4.5403555z"></path><path d="m38.5823622 28.8636887v9.5131259h6.6080289v-1.7296593h-4.5829878v-7.7834666z"></path><path d="m53.8234611 28.8636887-2.0250411 6.5943259h-.1065811l-2.1316222-6.5943259h-2.9842711v9.5131259h2.0250411v-6.5943259l2.2382033 6.5943259h1.5987167l2.3447844-6.7024296v6.7024296h1.91846v-9.5131259z"></path><path d="m62.4565311 31.2419702 1.1723922 3.4593185h-2.4513655zm-1.0658111-2.3782815-3.5171767 9.5131259h2.1316223l.7460677-2.1620741h3.5171767l.7460678 2.1620741h2.1316222l-3.5171767-9.5131259z"></path><path d="m68.1 28.8632786h2.0255556v9.5128734h-2.0255556z"></path><path d="m71.94225 28.8636887v9.5131259h7.1409344v-1.7296593h-5.0093122v-2.2701777h4.4764067v-1.7296593h-4.4764067v-1.9458667h4.9027311v-1.8377629z"></path><path d="m23.1281011 31.2419702 1.1723922 3.4593185h-2.4513655zm-1.0658111-2.3782815-3.5171767 9.5131259h2.1316223l.7460677-2.1620741h3.5171767l.7460678 2.1620741h2.1316222l-3.5171767-9.5131259z"></path><path d="m20.5701544 30.4852442h-1.0658111v-1.6215555h1.7052978z"></path><path d="m25.6860478 30.4852442h1.1723922v-1.6215555h-1.7052978z"></path><path d="m82.8135233 30.5933475h2.1316223c.4263244 0 .7460677.1081037.95923.2162074.3197433.2162074.5329055.6486222.5329055 1.1891407s-.2131622.8648296-.5329055 1.081037c-.2131623.1081037-.5329056.1081037-.95923.1081037h-2.1316223zm6.0751234 7.8915704-2.3447845-3.999837c.7460678-.2162074 1.2789734-.6486222 1.5987167-1.2972445.2131622-.5405185.3197433-.9729333.3197433-1.4053481s-.1065811-.8648296-.2131622-1.081037-.3197433-.5405186-.4263244-.756726c-.2131623-.3243111-.5329056-.5405185-.8526489-.6486222-.3197434-.1081037-.8526489-.3243111-1.4921356-.3243111h-4.5829878v9.5131259h2.0250411v-3.6755259h1.7052978l2.1316222 3.6755259z"></path>
+          </g>
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+        <ul class="navbar-nav justify-content-between align-items-center">
+          <li class="nav-item"> <a class="nav-link" href="#aboutus">Despre noi</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#pozitii__vacante">Pozitii vacante</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#de_ce_noi">De ce noi</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#workstages">Istoria</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#whywe">Draexlmaier 1</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#whywe2">Draexlmaier 2</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#ourteam">Echipa IT</a> </li>
+          <li class="nav-item"> <a class="btn btn-dark" id="navbar-button" href="#contactus">Contactează-ne</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-titles d-flex flex-column justify-content-center align-items-center">
+      <h1>Our missions -</h1>
+      <h2>the mobility of the future</h2>
+      <a href="#contactus" class="btn btn-light">
+        Contactează-ne
+      </a>
+    </div>
+  </header>
+
+  <!-- About Us -->
+  <section class="aboutus" id="aboutus">
+    <div class="container-fluid">
+      <div class="row">
+        <img src="img/about.jpg" class="col-6 aboutus-img wow animate__animated animate__fadeInLeft" alt="">
+        <div class="aboutus-content col-6 wow animate__animated animate__fadeInRight">
+          <div class="aboutus-content-inner d-flex flex-column align-items-center">
+            <h2 class="aboutus-header"><span class="character">Noi creăm</span> caracter</h2>
+            <p class="aboutus-text text-center">
+              DRÄXLMAIER Group este o afacere de familie cu activitate la nivel global în segmentul automobilelor premium. Elaborează și produce sisteme de cablaje și componente electrice/electronice, precum și de interior. <br>
+              WE CREATE CHARACTER - Inovațiile DRÄXLMAIER Group conturează caracterul automobilelor premium din întreaga lume. În calitate de partener al producătorilor de automobile de renume precum Audi, BMW, Jaguar, Land Rover, Maserati, Mercedes-Benz, MINI, Porsche și VW, cât și producători californieni de automobile, dezvoltăm și fabricăm sisteme complexe de cablaje,
+            </p>
+            <a href="#contactus" class="aboutus-btn btn btn-dark">
+              Contactează-ne
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Pozitii vacante -->
+    <section class="services" id="pozitii__vacante">
+      <h2 class="services-title text-center">Pozitii vacante</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 wow animate__animated animate__fadeInUp">
+            <div class="services-card services-card__item1">
+              <div class="services-card-title d-flex justify-content-center">
+                <h3 class="main-title">Contabil. Departament financiar</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-4 wow animate__animated animate__fadeInUp">
+            <div class="services-card services-card__item2">
+              <div class="services-card-title d-flex justify-content-center">
+                <h3 class="main-title">Departament Logistica</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-4 wow animate__animated animate__fadeInUp">
+            <div class="services-card services-card__item3">
+              <div class="services-card-title d-flex justify-content-center">
+                <h3 class="main-title">Audit de produs. Departamen calitate</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-4 wow animate__animated animate__fadeInUp">
+            <div class="services-card services-card__item4">
+              <div class="services-card-title d-flex justify-content-center">
+                <h3 class="main-title">Instructor. Departament productie</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-4 wow animate__animated animate__fadeInUp">
+            <div class="services-card services-card__item5">
+              <div class="services-card-title d-flex justify-content-center">
+                <h3 class="main-title">Specialist in domeniul calitatii</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-4 wow animate__animated animate__fadeInUp">
+            <div class="services-card services-card__item6">
+              <div class="services-card-title d-flex justify-content-center">
+                <h3 class="main-title">Sef sector</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="aboutus" id="de_ce_noi">
+      <div class="container-fluid">
+        <div class="row">
+          <img src="img/sec3.jpg" class="col-6 aboutus-img wow animate__animated animate__fadeInLeft" alt="">
+          <div class="aboutus-content col-6 wow animate__animated animate__fadeInRight">
+            <div class="aboutus-content-inner d-flex flex-column align-items-center">
+              <h2 class="aboutus-header"><span class="character">Noi creăm</span> caracter</h2>
+              <p class="aboutus-text text-center">
+                DRÄXLMAIER Group este în Top 100 furnizori de componente auto din lume, având în jur de 65 de locații în peste 20 de țări. Fondat în Germania în 1958, Grupul are acum în jur de 75.000 de angajați la nivel mondial.
+                În 2020, compania a avut o cifră de afaceri de 4,2 miliarde de euro.
+                Fascinația pentru automobile marchează produsele noastre și îi motivează pe angajații noștri. Pasiunea lor pentru automobile și entuziasmul pentru a crea ceva nou se completează cu angajamentul de a găsi modalități noi, inteligente și durabile pentru modelarea caracterului automobilului. La DRÄXLMAIER, tinerii profesioniști își pot construi cariera în industria automobilelor.
+              </p>
+              <a href="#contactus" class="aboutus-btn btn btn-dark">
+                Contactează-ne
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Work Stages -->
+  <section class="workstages" id="workstages">
+    <h2 class="workstages-title text-center">
+      Istoria
+    </h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 offset-xl-1 wow animate__animated animate__fadeInLeft">
+          <div class="workstages-card workstages-1">
+            <h2>64 ani de traditie</h2>
+            <h1></h1>
+          </div>
+        </div>
+
+        <div class="col-xl-5 wow animate__animated animate__fadeInRight">
+          <div class="workstages-card workstages-2">
+            <h2>72.000 angajati</h2>
+          </div>
+        </div>
+
+        <div class="col-xl-5 offset-xl-1 wow animate__animated animate__fadeInLeft">
+          <div class="workstages-card workstages-3">
+            <h2>65 fabrici</h2>
+          </div>
+        </div>
+
+        <div class="col-xl-5 wow animate__animated animate__fadeInRight">
+          <div class="workstages-card workstages-4">
+            <h2>20 tari</h2>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why We? -->
+  <section class="whywe" id="whywe">
+    <div class="whywe-inner">
+      <div class="text-center">
+        <h2 class="whywe-main-title">Draexlmaier 1</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="whywe-content col-7 d-flex flex-column">
+            <!-- first -->
+            <div class="whywe-categories quality wow animate__animated animate__fadeInLeft">
+              <div class="whywe-info">
+                <h3 class="whywe-title">Grupul DRÄXLMAIER</h3>
+                <p>stabilește prima locație în Bălţi, Moldova. În doar câteva luni, clădirea este reparată, sala e decorată și echipată cu cele mai noi echipamente pentru producția de sisteme de cablu.</p>
+              </div>
+            </div>
+            <!-- second -->
+            <div class="whywe-categories faster wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
+              <div class="whywe-info">
+                <h3 class="whywe-title"></h3>
+                <p>Pentru viitorii lucrători sunt organizate cursuri de formare profesională. Aceasta este cea mai mare investiție străină în Moldova în acest an.</p>
+              </div>
+            </div>
+            <!-- third -->
+            <div class="whywe-categories profesional wow animate__animated animate__fadeInLeft" data-wow-delay=".6s">
+              <div class="whywe-info">
+                <h3 class="whywe-title"></h3>
+                <p>Se începe producția de sisteme electrice pentru clienții din industria de automotive premium.</p>
+              </div>
+            </div>
+          </div>
+          <div class="whywe-photo col-5 d-flex justify-content-center">
+            <img src="img/balti1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="whywe" id="whywe2">
+    <div class="whywe-inner">
+      <div class="text-center">
+        <h2 class="whywe-main-title">Draexlmaier 2</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="whywe-photo col-5 d-flex justify-content-center">
+            <img src="img/balti2.jpg" alt="">
+          </div>
+          <div class="whywe-content col-7 d-flex flex-column">
+            <!-- first -->
+            <div class="whywe-categories quality wow animate__animated animate__fadeInLeft">
+              <div class="whywe-info">
+                <h3 class="whywe-title">Construcția fabricii 2</h3>
+                <p>Compania germană DRÄXLMAIER realizează o investiție importantă în Moldova. Odată cu cucerirea unui nou client și a unui nou contract, se începe construcţia fabricii de producție 2.</p>
+              </div>
+            </div>
+            <!-- second -->
+            <div class="whywe-categories faster wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
+              <div class="whywe-info">
+                <h3 class="whywe-title"></h3>
+                <p>Pe 10 mai 2011 are loc deschiderea oficială a acestei fabrici. DRÄXLMAIER este din nou lider în vederea investiţiilor majore în Moldova.</p>
+              </div>
+            </div>
+            <!-- third -->
+            <div class="whywe-categories profesional wow animate__animated animate__fadeInLeft" data-wow-delay=".6s">
+              <div class="whywe-info">
+                <h3 class="whywe-title"></h3>
+                <p>Grupul DRÄXLMAIER continuă tendința de creștere și dezvoltare. Sunt primite comenzi noi și activate noi linii de producție. Din 2012, DRÄXLMAIER Bălţi a înfiinţat sectorul de asamblare finală a cablajelor specifice necesităţilor clientului (KSK), unde sunt produse cablaje pentru modelele electrice şi hibrid.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Team -->
+  <section class="ourteam" id="ourteam">
+    <div class="text-center">
+      <h2 class="ourteam-main-title">Departamentul IT</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center slider">
+          <div class="slider-item wow animate__animated animate__zoomIn">
+            <div class="slider-photo ">
+              <img class="slider__img" src="/img/user.png" alt="">
+            </div>
+            <div class="slider-name">Pojar Iulian</div>
+            <div class="slider-post">Head of IT</div>
+          </div>
+          <div class="slider-item wow animate__animated animate__zoomIn">
+            <div class="slider-photo">
+              <img class="slider__img" src="/img/user.png" alt="">
+            </div>
+            <div class="slider-name">Novoloaca Sergiu</div>
+            <div class="slider-post">Senior Administrator</div>
+          </div>
+          <div class="slider-item wow animate__animated animate__zoomIn">
+            <div class="slider-photo">
+              <img class="slider__img" src="/img/user.png" alt="">
+            </div>
+            <div class="slider-name">Chilari Andrei</div>
+            <div class="slider-post">On-Site Administrator</div>
+          </div>
+          <div class="slider-item wow animate__animated animate__zoomIn">
+            <div class="slider-photo">
+              <img class="slider__img" src="/img/me.jpg" alt="">
+            </div>
+            <div class="slider-name">Manoli Alexandru</div>
+            <div class="slider-post">System Administartor</div>
+          </div>
+          <div class="slider-item wow animate__animated animate__zoomIn">
+            <div class="slider-photo">
+              <img class="slider__img" src="/img/user.png" alt="">
+            </div>
+            <div class="slider-name">Machison Evghenii</div>
+            <div class="slider-post">On-Site Administrator</div>
+          </div>
+          <div class="slider-item wow animate__animated animate__zoomIn">
+            <div class="slider-photo">
+              <img class="slider__img" src="/img/user.png" alt="">
+            </div>
+            <div class="slider-name">Carpenco Alexandru</div>
+            <div class="slider-post">System Administrator</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="contactus" id="contactus">
+    <h2 class="contactus-title text-center">
+      Solicită apel
+    </h2>
+
+    <div class="container">
+      <div class="row position-relative">
+        <form class="contactus-form col-xl-5">
+          <input type="text" class="form-control" placeholder="Nume" id="name">
+          <input type="text" class="form-control" placeholder="Numărul de telefon" id="phone">
+          <input type="email" class="form-control" placeholder="E-mail" id="email">
+          <textarea rows="6" class="form-control" placeholder="Text" id="desc"></textarea>
+          <button type="submit" class="btn btn-dark">Transmite</button>
+        </form>
+
+        <div class="contactus-separator"></div>
+
+        <div class="contactus-info col-xl-5 offset-xl-2">
+          <div class="bg-dark" id="map" style="height: 250px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3305.6423492244407!2d27.9426909!3d47.7850041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb67f995992f21%3A0x5959f3d15db18902!2sDR%C3%84XLMAIER%20Group!5e1!3m2!1spl!2spl!4v1654809425752!5m2!1spl!2spl" height="250" width="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+          <div class="contactus-contacts">
+            <div>
+              <img src="img/contacts-location.png" alt="">
+              <p>str. industriala 4</p>
+            </div>
+
+            <div>
+              <img src="img/contacts-phone.png" alt="">
+              <p>+373 82 1234 56</p>
+            </div>
+
+            <div>
+              <img src="img/contacts-mail.png" alt="">
+              <p>hr@Draexlmaier.com</p>
+            </div>
+
+            <div>
+              <a href="#"><img src="img/social-google.svg" alt="" class="social-meida-icon"></a>
+              <a href="#"><img src="img/social-twitter.svg" alt="" class="social-meida-icon"></a>
+              <a href="#"><img src="img/social-facebook.svg" alt="" class="social-meida-icon"></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer> &copy; Gemstone 2021. All rights reserved. </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Slick JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+    async></script>
+  <!-- wow.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous"></script>
+  <!-- JS -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
